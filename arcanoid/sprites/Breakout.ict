@@ -1,0 +1,4997 @@
+ctjsVersion: 1.3.1
+notes: /* empty */
+libs:
+  place:
+    gridX: 1024
+    gridY: 1024
+  fittoscreen:
+    mode: scaleFit
+  mouse: {}
+  keyboard: {}
+  keyboard.polyfill: {}
+  sound.howler: {}
+  random: {}
+  touch:
+    preventdefault: true
+    mousetouch: true
+textures:
+  - name: element_green_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: i87c5b87e-1ab4-4998-a416-c0123ff01d4e.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_green_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: 87c5b87e-1ab4-4998-a416-c0123ff01d4e
+    padding: 1
+    lastmod: 1593609671338
+  - name: element_grey_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: ia7569cf1-2939-4e42-9883-2cd813a4b8d8.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_grey_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: a7569cf1-2939-4e42-9883-2cd813a4b8d8
+    padding: 1
+    lastmod: 1593609674561
+  - name: element_yellow_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: i91ef08b9-3360-4124-a9b3-9385d6d6b0dc.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_yellow_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: 91ef08b9-3360-4124-a9b3-9385d6d6b0dc
+    padding: 1
+    lastmod: 1593609685697
+  - name: element_red_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: i9a80b57b-8091-4dca-b93c-0577779978cd.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_red_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: 9a80b57b-8091-4dca-b93c-0577779978cd
+    padding: 1
+    lastmod: 1593609681657
+  - name: paddleBlu
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 52
+      - 24
+    marginx: 0
+    marginy: 0
+    imgWidth: 104
+    imgHeight: 24
+    width: 104
+    height: 24
+    offx: 0
+    offy: 0
+    origname: iab14f192-726e-4c88-9d50-dc8b7f226e0d.png
+    source: 'C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\paddleBlu.png'
+    shape: rect
+    left: 52
+    right: 52
+    top: 24
+    bottom: 0
+    uid: ab14f192-726e-4c88-9d50-dc8b7f226e0d
+    padding: 1
+    lastmod: 1593612007175
+  - name: ballGrey
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 11
+      - 11
+    marginx: 0
+    marginy: 0
+    imgWidth: 22
+    imgHeight: 22
+    width: 22
+    height: 22
+    offx: 0
+    offy: 0
+    origname: i7261b71f-d571-4dd4-a992-177d9fc97928.png
+    source: 'C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\ballGrey.png'
+    shape: circle
+    left: 0
+    right: 22
+    top: 0
+    bottom: 22
+    uid: 7261b71f-d571-4dd4-a992-177d9fc97928
+    padding: 1
+    r: 11
+    lastmod: 1593612010112
+  - name: element_blue_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: i36ca0c70-ecb3-4281-9ba4-dec88dbc8463.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_blue_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: 36ca0c70-ecb3-4281-9ba4-dec88dbc8463
+    padding: 1
+    lastmod: 1593609666233
+  - name: element_purple_rectangle_glossy
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 32
+      - 16
+    marginx: 0
+    marginy: 0
+    imgWidth: 64
+    imgHeight: 32
+    width: 64
+    height: 32
+    offx: 0
+    offy: 0
+    origname: ie4be02a8-530b-4408-918e-87b0577ba70c.png
+    source: >-
+      C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\element_purple_rectangle_glossy.png
+    shape: rect
+    left: 32
+    right: 32
+    top: 16
+    bottom: 16
+    uid: e4be02a8-530b-4408-918e-87b0577ba70c
+    padding: 1
+    lastmod: 1593609677978
+  - name: ballBlue
+    untill: 0
+    grid:
+      - 1
+      - 1
+    axis:
+      - 11
+      - 11
+    marginx: 0
+    marginy: 0
+    imgWidth: 22
+    imgHeight: 22
+    width: 22
+    height: 22
+    offx: 0
+    offy: 0
+    origname: i965bf37b-b9ad-45f1-bf04-ad2051fd45a0.png
+    source: 'C:\Peter\PESSOAL\Graficos\1_Kenney\puzzlepack\png\ballBlue.png'
+    shape: circle
+    left: 0
+    right: 22
+    top: 0
+    bottom: 22
+    uid: 965bf37b-b9ad-45f1-bf04-ad2051fd45a0
+    padding: 1
+    r: 11
+    lastmod: 1593633028549
+skeletons: []
+types:
+  - name: Ball
+    depth: 0
+    oncreate: |-
+      // setting the ball speed
+      this.speed = 7;
+    onstep: >
+      // collision with room boundaries
+
+      // side boundaries
+
+      if (this.hspeed > 0) {
+          if (this.x > ct.viewWidth - 11){
+              this.hspeed *= -1;
+               ct.sound.spawn('BrickHit');
+          }
+      } else if (this.hspeed < 0){
+          if (this.x < 11) {
+              this.hspeed *= -1;
+               ct.sound.spawn('BrickHit');
+          }
+      }
+
+      // top boundary
+
+      if (this.vspeed < 0) {
+          if (this.y < 11) {
+              this.vspeed *= -1;
+               ct.sound.spawn('BrickHit');
+          }
+      }
+
+
+      // move
+
+      this.move();
+
+
+      // kill it if it's outside room
+
+      if (this.y > ct.viewHeight + 11){
+          this.kill = true;
+      }
+
+
+      // hitting the paddle
+
+      var paddle = ct.place.occupied(this, this.x, this.y, 'Paddle');
+
+      if (paddle){
+          var direction = ct.u.pointDirection(paddle.x, paddle.y, this.x, this.y);
+          this.direction = direction;
+           ct.sound.spawn('BrickHit');
+      }
+
+
+
+      // hitting the bricks
+
+      var brick = ct.place.occupied(this, this.x + this.hspeed, this.y +
+      this.vspeed, 'Brick');
+
+      if (brick){
+          var destroy = false;
+          if (ct.place.occupied(this, this.x + this.hspeed, this.y, 'Brick')){
+              this.hspeed *= -1;
+              destroy = true;
+          }
+          if (ct.place.occupied(this, this.x, this.y + this.vspeed, 'Brick')){
+              this.vspeed *= -1;
+              destroy = true;
+          }
+          if (destroy){
+              brick.kill = true;
+              ct.room.nextScore += 10;
+              ct.sound.spawn('BrickHit');
+              ct.room.totalBricks --;
+          }
+      }
+    ondraw: ''
+    ondestroy: |-
+      // updating room varibale for active balls
+      ct.room.activeBalls --;
+    uid: 17757568-bda8-4ce4-8f5b-0f9a860014c2
+    texture: 965bf37b-b9ad-45f1-bf04-ad2051fd45a0
+    extends: {}
+    lastmod: 1593634015213
+  - name: Paddle
+    depth: 0
+    oncreate: |-
+      // setting the start X position
+      this.x = ct.viewWidth / 2;
+
+      // setting movament variables
+      this.acceleration = 0.8;
+      this.maxSpeed = 8;
+    onstep: >-
+      // paddle movement
+
+      // input
+
+      // variable to store inputs
+
+      var move = ct.actions.MoveX.value;
+
+
+      // if it's a mobile device, detec the touch and move the paddle
+
+      if (ct.touch.enabled){
+          if (ct.touch.events.length){
+              if ((ct.touch.x - this.x) > 20) {
+                  move = 1;
+              } else if ((ct.touch.x - this.x) < -20){
+                  move = -1;
+              }
+          } else {
+              move = 0;
+          }
+      }
+
+
+      // changing horizontal speed
+
+      if (move != 0){
+          this.hspeed += move * ct.delta * this.acceleration;
+      } else {
+          if (this.speed > 0) {
+              this.speed -= this.acceleration * ct.delta;
+              if (this.speed <= this.acceleration) {
+                  this.speed = 0;
+              }
+          }
+      }
+
+      this.hspeed = ct.u.clamp(-this.maxSpeed, this.hspeed, this.maxSpeed);
+
+
+      // moving
+
+      this.move();
+
+
+      // setting room boundaries
+
+      this.x = ct.u.clamp(52, this.x, ct.viewWidth - 52);
+
+      if (this.x == 52 || this.x == ct.viewWidth - 52) {
+          this.hspeed = 0;
+      }
+
+      /*
+
+      // launch ball
+
+      if ((ct.actions.Launch.pressed) && (ct.room.extraBalls > 0) &&
+      (ct.room.activeBalls == 0) && (ct.room.victory == false)) {
+          ct.room.extraBalls --;
+          ct.room.activeBalls ++;
+          var ball = ct.types.copy('Ball', this.x, this.y - 35);
+          ball.direction = ct.random.range(45, 135);
+          ct.sound.spawn('Confirmation');
+      }
+
+      */
+    ondraw: ''
+    ondestroy: ''
+    uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+    texture: ab14f192-726e-4c88-9d50-dc8b7f226e0d
+    extends:
+      ctype: Paddle
+    lastmod: 1593703895729
+  - name: BrickBlue
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+    texture: 36ca0c70-ecb3-4281-9ba4-dec88dbc8463
+    extends:
+      ctype: Brick
+    lastmod: 1593632633880
+  - name: BrickGreen
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: a378a090-fe6c-4061-a043-874b97326fd9
+    texture: 87c5b87e-1ab4-4998-a416-c0123ff01d4e
+    extends:
+      ctype: Brick
+    lastmod: 1593632639440
+  - name: BrickGray
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    texture: a7569cf1-2939-4e42-9883-2cd813a4b8d8
+    extends:
+      ctype: Brick
+    lastmod: 1593632636817
+  - name: BrickPurple
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+    texture: e4be02a8-530b-4408-918e-87b0577ba70c
+    extends:
+      ctype: Brick
+    lastmod: 1593632642296
+  - name: BrickRed
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+    texture: 9a80b57b-8091-4dca-b93c-0577779978cd
+    extends:
+      ctype: Brick
+    lastmod: 1593632644871
+  - name: BrickYellow
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+    texture: 91ef08b9-3360-4124-a9b3-9385d6d6b0dc
+    extends:
+      ctype: Brick
+    lastmod: 1593632647183
+  - name: ExtraBalls
+    depth: 0
+    oncreate: >-
+      this.text = new PIXI.Text('x' + ct.room.extraBalls,
+      ct.styles.get('ExtraBalls'));
+
+      this.text.x = 24;
+
+      this.text.anchor.y = 0.5;
+
+
+      this.addChild(this.text);
+    onstep: this.move();
+    ondraw: this.text.text = 'x' + ct.room.extraBalls;
+    ondestroy: ''
+    uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+    texture: 965bf37b-b9ad-45f1-bf04-ad2051fd45a0
+    extends: {}
+    lastmod: 1593632993326
+  - name: AditionalBall
+    depth: 0
+    oncreate: ''
+    onstep: this.move();
+    ondraw: ''
+    ondestroy: ''
+    uid: 4852a8c7-c5db-4b43-88ab-647ca937cb6a
+    texture: 965bf37b-b9ad-45f1-bf04-ad2051fd45a0
+    extends: {}
+    lastmod: 1593627403402
+sounds:
+  - name: BrickHit
+    uid: 8ef0d14f-12f6-42c8-a4d8-cd71dcd2375e
+    origname: s8ef0d14f-12f6-42c8-a4d8-cd71dcd2375e.ogg
+    lastmod: 1593633511907
+  - name: Lose
+    uid: a76b7c1a-f770-4a88-93ae-25cae1031ea4
+    origname: sa76b7c1a-f770-4a88-93ae-25cae1031ea4.ogg
+    lastmod: 1593633584172
+  - name: Confirmation
+    uid: dfbb4c98-c940-4a0c-8272-98c2828551c9
+    origname: sdfbb4c98-c940-4a0c-8272-98c2828551c9.ogg
+    lastmod: 1593633529950
+  - name: Victory
+    uid: 2a66c925-9b74-4360-8ea8-3f1cab8c7ef6
+    origname: s2a66c925-9b74-4360-8ea8-3f1cab8c7ef6.ogg
+    lastmod: 1593633609932
+  - name: RoomStart
+    uid: b460f818-542c-4ea3-b255-19391c754e02
+    origname: sb460f818-542c-4ea3-b255-19391c754e02.ogg
+    lastmod: 1593633743370
+styles:
+  - name: Score
+    uid: 1e9bcdb3-dda9-4deb-85c7-54125455a513
+    origname: s54125455a513
+    font:
+      family: sans-serif
+      size: 32
+      weight: '900'
+      italic: false
+      halign: left
+    fill:
+      type: '1'
+      color1: '#5CA3FF'
+      color2: '#2E5280'
+    stroke:
+      color: '#FFFFFF'
+      weight: 6
+    lastmod: 1593625902887
+  - name: ExtraBalls
+    uid: 913f3411-66af-49f2-ba9d-fc78f250b58f
+    origname: sfc78f250b58f
+    font:
+      family: sans-serif
+      size: 24
+      weight: '600'
+      italic: false
+      halign: left
+    fill:
+      type: '1'
+      color1: '#BABABA'
+      color2: '#616161'
+    stroke:
+      color: '#FFFFFF'
+      weight: 7
+    lastmod: 1593625956190
+  - name: Message
+    uid: 0fc8f59d-522b-4cc3-ac2b-59b7601041b9
+    origname: s59b7601041b9
+    font:
+      family: sans-serif
+      size: 32
+      weight: '900'
+      italic: false
+      halign: center
+      wrap: false
+    fill:
+      type: '1'
+      color1: '#8DFF5C'
+      color2: '#447A2C'
+    stroke:
+      color: '#FFFFFF'
+      weight: 6
+    lastmod: 1593697243399
+  - name: Title
+    uid: 19f41c8c-c50d-423e-a9ee-df2a6f32e8fd
+    origname: sdf2a6f32e8fd
+    font:
+      family: sans-serif
+      size: 60
+      weight: '900'
+      italic: false
+      halign: center
+    fill:
+      type: '1'
+      color: '#483BFF'
+      color1: '#FF963B'
+      color2: '#87501F'
+    stroke:
+      color: '#FFFFFF'
+      weight: 10
+    shadow:
+      color: '#7A7A7A'
+      x: 3
+      'y': 3
+      blur: 0
+    lastmod: 1593694320631
+rooms:
+  - name: Level01
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level02';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 192
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 576
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 704
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 640
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 704
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 768
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 576
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 192
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: 4e1f9b10-662d-4e1e-a666-9a645be90d51
+    thumbnail: 9a645be90d51
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699676603
+  - name: Menu
+    oncreate: >-
+      // creating Title Label
+
+      this.titleLabel = new PIXI.Text('Breakout', ct.styles.get('Title'));
+
+      this.addChild(this.titleLabel);
+
+      this.titleLabel.x = ct.viewWidth / 2;
+
+      this.titleLabel.anchor.x = this.titleLabel.anchor.y = 0.5;
+
+      this.titleLabel.y = 60;
+
+      this.titleLabel.depth = 1000;
+
+
+      // creating HighScore Label
+
+      // loading highscore
+
+      if (!('highScore' in localStorage)) {
+          this.highScore = 0;
+      } else {
+          this.highScore = localStorage['highScore'];
+      }
+
+
+      this.highScoreLabel = new PIXI.Text('HighScore: ' + this.highScore,
+      ct.styles.get('Score'));
+
+      this.addChild(this.highScoreLabel);
+
+      this.highScoreLabel.x = ct.viewWidth / 2;
+
+      this.highScoreLabel.anchor.x = this.highScoreLabel.anchor.y = 0.5;
+
+      this.highScoreLabel.y = ct.viewHeight / 2;
+
+      this.highScoreLabel.depth = 1000;
+
+
+      // creating Message Label
+
+      this.messageLabel = new PIXI.Text('Press Space to play\nHave fun!',
+      ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.anchor.x = 0.5;
+
+      this.messageLabel.anchor.y = 0;
+
+      this.messageLabel.y = ct.viewHeight / 2 + 100;
+
+      this.messageLabel.depth = 1000;
+
+
+      // change message if it's a mobile
+
+      if (ct.touch.enabled) {
+          this.messageLabel.text = ('Touch Screen to play\nHave fun!');
+      }
+
+
+      // reseting score
+
+      localStorage['score'] = 0;
+    onstep: >-
+      // start game
+
+      if ((ct.actions.Launch.pressed) || (ct.touch.events.length)){
+          ct.rooms.switch('Level01');
+      }
+
+
+      // if keyboard key "delete" is pressed, it will delete the highscore, used
+      for testing and debugging
+
+      if (ct.actions.Delete.pressed){
+          localStorage['highScore'] = 0;    
+      }
+    ondraw: ''
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 480
+        'y': 624
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 576
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 704
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 96
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 160
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 224
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 288
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 352
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 416
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 480
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 544
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 608
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 672
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 736
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 800
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 864
+        'y': 80
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 192
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 576
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 160
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 224
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 288
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 352
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 416
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 480
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 544
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 608
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 672
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 736
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 800
+        'y': 176
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 192
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 224
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 288
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 352
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 416
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 480
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 544
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 608
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 672
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 736
+        'y': 272
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: a36c8803-c3bd-4be8-b4a0-d631742cece9
+    thumbnail: d631742cece9
+    gridX: 32
+    gridY: 16
+    lastmod: 1593711177903
+  - name: Level02
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level03';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 128
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 704
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 192
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 320
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 448
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 576
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 704
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 192
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 256
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: 4572ee0a-2e64-475e-b780-dda296e54658
+    thumbnail: dda296e54658
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699689506
+  - name: Level03
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level04';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 128
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 256
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 224
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 224
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 192
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 64
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 128
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 192
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 256
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 768
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 768
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 768
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 704
+        'y': 128
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 704
+        'y': 192
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 224
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 32
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 32
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: 59c96ade-b72b-4d20-9b90-61d5a390a7ff
+    thumbnail: 61d5a390a7ff
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699698346
+  - name: Level04
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level05';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 64
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 576
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 704
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 640
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 704
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 768
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 576
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 320
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 384
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 448
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 512
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 576
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 320
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 352
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 352
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 352
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 768
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 224
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 352
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: a0691a8e-fe22-428f-add9-9a79c1035f77
+    thumbnail: 9a79c1035f77
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699725236
+  - name: Level05
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level06';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 128
+        'y': 64
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 192
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 256
+        'y': 128
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 320
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 384
+        'y': 192
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 192
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 192
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 576
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 64
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 576
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 128
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 704
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 768
+        'y': 192
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 576
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 768
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 768
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 192
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 192
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: a1d8b640-b60d-4086-8a09-96f52c86eb01
+    thumbnail: 96f52c86eb01
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699732986
+  - name: Level06
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level07';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 128
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 704
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 768
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 704
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 640
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 32
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 512
+        'y': 32
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 448
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 512
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 448
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 512
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 896
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 64
+        'y': 320
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 64
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 288
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: ad0d5fa0-e3dc-41dd-81b8-c9f524f96569
+    thumbnail: c9f524f96569
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699740450
+  - name: Level07
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level08';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 128
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 192
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 192
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 384
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 448
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 512
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 256
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 320
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 384
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 192
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 128
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 320
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 224
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: b034f1e2-08c5-4396-906f-31be46bc0f30
+    thumbnail: 31be46bc0f30
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699747732
+  - name: Level08
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level09';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 448
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 64
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 224
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 192
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 192
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 192
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 32
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 768
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 64
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 256
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 192
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 64
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 64
+        'y': 480
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 128
+        'y': 480
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 64
+        'y': 448
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 544
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 512
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 480
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 480
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 448
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: a582cf46-733a-4b83-bb19-dffa30eb4384
+    thumbnail: dffa30eb4384
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699754996
+  - name: Level09
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Level10';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 64
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 192
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 256
+        'y': 128
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 32
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 64
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 192
+        'y': 32
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 256
+        'y': 64
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 64
+        'y': 96
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 128
+        'y': 128
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 192
+        'y': 160
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 64
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 32
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 64
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 96
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 64
+        'y': 160
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 32
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 32
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 896
+        'y': 32
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 64
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 768
+        'y': 96
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 704
+        'y': 128
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 832
+        'y': 32
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 896
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 768
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 640
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 704
+        'y': 64
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 32
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 896
+        'y': 96
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 832
+        'y': 128
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 768
+        'y': 160
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+      - x: 576
+        'y': 96
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 640
+        'y': 64
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 704
+        'y': 32
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 832
+        'y': 160
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 896
+        'y': 128
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 64
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 640
+        'y': 32
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 896
+        'y': 160
+        uid: d91d8076-00f9-4a6d-a54e-ee731710a149
+      - x: 576
+        'y': 32
+        uid: 20215730-7323-48fc-82b8-983b0ba57c90
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: 3c3e39b5-a550-447e-b772-ee152fc383c0
+    thumbnail: ee152fc383c0
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699777106
+  - name: Level10
+    oncreate: >-
+      // setting the next room
+
+      this.nextRoom = 'Menu';
+
+
+      roomStartEvent(this);
+
+
+      /*
+
+      // load score
+
+      if (!('score' in localStorage)) {
+           this.score = 0;
+      } else {
+           this.score = Number(localStorage['score']);
+           //console.log('Score: ' + this.score);
+      }
+
+
+      // score variables
+
+      //this.score = 0; // total score
+
+      this.nextScore = this.score; // variable for the effect of score changing
+
+      this.extraScoreAdded = false;
+
+
+      // creating score label
+
+      this.scoreLabel = new PIXI.Text('Score: ' + this.score,
+      ct.styles.get('Score'));
+
+      this.addChild(this.scoreLabel);
+
+      this.scoreLabel.x = ct.viewWidth / 2;
+
+      this.scoreLabel.anchor.x = 0.5;
+
+      this.scoreLabel.y = 10;
+
+      this.scoreLabel.depth = 1000;
+
+
+      // balls
+
+      this.extraBalls = 4;    // starting balls
+
+      this.activeBalls = 0;   // how many balls are active
+
+      //this.victory = false;   // if the player won this room
+
+
+      // message label
+
+      this.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+
+      this.addChild(this.messageLabel);
+
+      this.messageLabel.x = ct.viewWidth / 2;
+
+      this.messageLabel.y = ct.viewHeight / 2;
+
+      this.messageLabel.anchor.x = this.messageLabel.anchor.y = 0.5;
+
+      this.messageLabel.depth = 1000;
+
+
+      // message text
+
+      this.messageText = 'Press Space';
+
+
+      // calculating the total bricks, that will be substracted by each
+      destroyed brick. Used to define victory conditions
+
+      this.totalBricks = ct.types.list['BrickBlue'].length +
+      ct.types.list['BrickGray'].length
+           + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+      // play start jingle
+
+      ct.sound.spawn('RoomStart');
+
+
+      // room state
+
+      this.state = 'starting';
+
+      this.stateTimer = 0;    // state timer
+
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+
+      */
+    onstep: |-
+      roomOnStepEvent(this);
+      /*
+      switch(this.state){
+          case 'starting':
+              // show message
+              this.messageText = 'Press Space';
+              // launch ball
+              if (ct.actions.Launch.pressed) {
+                  this.extraBalls --;
+                  this.activeBalls ++;
+                  var paddle = ct.types.list['Paddle'];
+                  var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                  launchBall.direction = ct.random.range(45, 135);
+                  ct.sound.spawn('Confirmation');
+                  this.state = 'running';
+              }
+              break;
+          case 'running':
+              this.messageText = '';
+              if (this.totalBricks == 0) {
+                  this.state = 'victory';
+                  ct.sound.spawn('Victory');
+                  var balls = ct.types.list['Ball'].length;
+                  var ball = ct.types.list['Ball'];
+                  for (var i = 0; i < balls; i ++){
+                      ball[i].kill = true;
+                  }
+                  // reset state timer
+                  this.stateTimer = 0;
+              } else if (this.extraBalls == 0 && this.activeBalls == 0){
+                  this.state = 'defeat';
+              } else if (this.activeBalls == 0) {
+                  this.state = 'starting';
+              }
+              break;
+          case 'defeat':
+              this.messageText = 'You lose';
+              if (ct.actions.Launch.pressed){
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = this.score;
+                  } else if(Number(localStorage['highScore']) < this.score){
+                      localStorage['highScore'] = this.score;
+                  }
+                  ct.rooms.switch('Menu');
+              }
+
+              break;
+          case 'victory':
+              this.messageText = 'You won';
+              if (this.stateTimer > 60) {
+                  this.stateTimer = 0;
+                  this.state = 'extraScore';
+              }
+              this.stateTimer += ct.delta;
+              break;
+          case 'extraScore':
+              if (this.extraScoreAdded == false) {
+                  this.nextScore += 500 + 500 * this.extraBalls;
+                  this.extraScoreAdded = true;
+              }
+              var extraScore = 500 + 500 * this.extraBalls;
+              this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore;
+              this.stateTimer += ct.delta;
+
+              if (this.stateTimer > 120){
+                  this.messageText = 'Extra Lives: ' + this.extraBalls + '(+' + 500 * this.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + this.nextScore + '\nPress Space to Continue';
+                  if (ct.actions.Launch.pressed){
+                      this.state = 'nextRoom';
+                  }
+              }
+              break;
+          case 'nextRoom':
+              this.messageText = 'Press Space to continue';
+              // save current score for the nexto room
+              localStorage['score'] = this.score;                
+              //console.log('Score: ' + Number(localStorage['score']));
+                      
+              // save the highscore
+              if (!('highScore' in localStorage)) {
+                  localStorage['highScore'] = this.score;
+              } else if(Number(localStorage['highScore']) < this.score){
+                  localStorage['highScore'] = this.score;
+              }
+              
+              //go to next room
+              ct.rooms.switch(this.nextRoom);
+              break;
+      }
+      */
+    ondraw: |-
+      // updating score label
+      // variation of the score
+      var delta = 1;
+
+      if (this.nextScore - this.score > 600) {
+          delta = 100;
+      }else if (this.nextScore - this.score > 60) {
+          delta = 10;
+      }
+
+      // updating total score
+      this.score = ct.u.clamp(0, this.score + delta, this.nextScore);
+      this.scoreLabel.text = 'Score: ' + this.score;
+
+      // updating message label
+      this.messageLabel.text = this.messageText;
+    onleave: ''
+    width: 960
+    height: 640
+    backgrounds: []
+    copies:
+      - x: 512
+        'y': 608
+        uid: 38689f9f-09b4-4c67-9d6f-881f2ccd9893
+      - x: 64
+        'y': 608
+        uid: 7cbce6e5-1c50-478e-badd-ea0365e98bc3
+      - x: 448
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 576
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 512
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 448
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 384
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 320
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 640
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 704
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 640
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 576
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 512
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 448
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 384
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 320
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 256
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 576
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 704
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 640
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 576
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 512
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 448
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 320
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 384
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 576
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 512
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 448
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 64
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 128
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 64
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 64
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 128
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 64
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 128
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 128
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 64
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 64
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 128
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 64
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 896
+        'y': 64
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 832
+        'y': 96
+        uid: 9ffe8012-beef-4b25-8434-f1a38d271c4b
+      - x: 896
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 128
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 896
+        'y': 160
+        uid: ddceb9b6-644f-4695-86ea-1a0999b5257a
+      - x: 832
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 192
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 896
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 224
+        uid: a378a090-fe6c-4061-a043-874b97326fd9
+      - x: 832
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 896
+        'y': 256
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+      - x: 896
+        'y': 288
+        uid: f830ca1d-b537-42d1-980f-1dcd66da017d
+    tiles:
+      - depth: -10
+        tiles: []
+    uid: d06e8ae8-a61d-49e2-a829-2f6827ce402d
+    thumbnail: 2f6827ce402d
+    gridX: 64
+    gridY: 32
+    lastmod: 1593699787259
+actions:
+  - name: MoveX
+    methods:
+      - code: keyboard.ArrowRight
+      - code: keyboard.ArrowLeft
+        multiplier: -1
+  - name: Launch
+    methods:
+      - code: keyboard.Space
+  - name: Delete
+    methods:
+      - code: keyboard.Delete
+emitterTandems: []
+starting: 0
+settings:
+  minifyhtmlcss: false
+  minifyjs: false
+  fps: 60
+  version:
+    - 0
+    - 0
+    - 0
+  versionPostfix: ''
+  usePixiLegacy: true
+  export:
+    windows: true
+    linux: true
+    mac: true
+  branding:
+    icon: -1
+    accent: '#446adb'
+    invertPreloaderScheme: true
+  title: Breakout
+  author: PKgames
+scripts:
+  - name: roomStartEvent
+    code: |-
+      var roomStartEvent = function(room) {
+          // load score
+          if (!('score' in localStorage)) {
+              room.score = 0;
+          } else {
+              room.score = Number(localStorage['score']);
+              //console.log('Score: ' + this.score);
+          }
+
+          // score variables
+          //this.score = 0; // total score
+          room.nextScore = room.score; // variable for the effect of score changing
+          room.extraScoreAdded = false;
+
+          // creating score label
+          room.scoreLabel = new PIXI.Text('Score: ' + room.score, ct.styles.get('Score'));
+          room.addChild(room.scoreLabel);
+          room.scoreLabel.x = ct.viewWidth / 2;
+          room.scoreLabel.anchor.x = 0.5;
+          room.scoreLabel.y = 10;
+          room.scoreLabel.depth = 1000;
+
+          // balls
+          room.extraBalls = 4;    // starting balls
+          room.activeBalls = 0;   // how many balls are active
+          //this.victory = false;   // if the player won this room
+
+          // message label
+          room.messageLabel = new PIXI.Text('', ct.styles.get('Message'));
+          room.addChild(room.messageLabel);
+          room.messageLabel.x = ct.viewWidth / 2;
+          room.messageLabel.y = ct.viewHeight / 2;
+          room.messageLabel.anchor.x = room.messageLabel.anchor.y = 0.5;
+          room.messageLabel.depth = 1000;
+
+          // message text
+          if (ct.touch.enabled){
+              room,messageText = 'Tap';
+          } else{
+              room.messageText = 'Press Space';
+          }
+
+          // calculating the total bricks, that will be substracted by each destroyed brick. Used to define victory conditions
+          room.totalBricks = ct.types.list['BrickBlue'].length + ct.types.list['BrickGray'].length
+              + ct.types.list['BrickGreen'].length + ct.types.list['BrickPurple'].length + ct.types.list['BrickRed'].length + ct.types.list['BrickYellow'].length;
+
+          // play start jingle
+          ct.sound.spawn('RoomStart');
+
+          // room state
+          room.state = 'starting';
+          room.stateTimer = 0;    // state timer
+      // states = starting, running, defeat, victory, extraScore, nextRoom
+      }
+  - name: roomOnStepEvent
+    code: |
+      /* Use scripts to define frequent functions and import small libraries */
+      var roomOnStepEvent = function(room) {
+          // room state
+          switch(room.state){
+              case 'starting':
+                  // show message
+                  room.messageText = 'Press Space';
+                  // launch ball
+                  if (ct.actions.Launch.pressed || ct.touch.events.length) {
+                      // substract the number of extra balls
+                      room.extraBalls --;
+                      // add a ball to active ball
+                      room.activeBalls ++;
+                      // launch the ball on top of paddle
+                      var paddle = ct.types.list['Paddle'];
+                      var launchBall = ct.types.copy('Ball', paddle[0].x, paddle[0].y - 35);
+                      // set the direction of the ball
+                      launchBall.direction = ct.random.range(45, 135);
+                      // play sound
+                      ct.sound.spawn('Confirmation');
+                      // change room state to running
+                      room.state = 'running';
+                  }
+                  break;
+              case 'running':
+                  // change message label
+                  room.messageText = '';
+                  // victory condition - no more bricks
+                  if (room.totalBricks == 0) {
+                      // change room state to victory
+                      room.state = 'victory';
+                      // play victory sound
+                      ct.sound.spawn('Victory');
+                      // destro all active balls
+                      var balls = ct.types.list['Ball'].length;
+                      var ball = ct.types.list['Ball'];
+                      for (var i = 0; i < balls; i ++){
+                          ball[i].kill = true;
+                      }
+                      // reset state timer
+                      room.stateTimer = 0;
+                  } else if (room.extraBalls == 0 && room.activeBalls == 0){
+                      // change room state to defeat 
+                      room.state = 'defeat';
+                  } else if (room.activeBalls == 0) {
+                      // set room state to starting, when there are aditional extra balls 
+                      room.state = 'starting';
+                  }
+                  break;
+              case 'defeat':
+                  // change message text
+                  room.messageText = 'You lose';
+                  // store highscore and go to menu
+                  if (ct.actions.Launch.pressed || ct.touch.events.length){
+                      if (!('highScore' in localStorage)) {
+                          localStorage['highScore'] = room.score;
+                      } else if(Number(localStorage['highScore']) < room.score){
+                          localStorage['highScore'] = room.score;
+                      }
+                      ct.rooms.switch('Menu');
+                  }
+
+                  break;
+              case 'victory':
+                  // change message text
+                  room.messageText = 'You won';
+                  // wait 1 second
+                  if (room.stateTimer > 60) {
+                      // reset state timer
+                      room.stateTimer = 0;
+                      // change room state
+                      room.state = 'extraScore';
+                  }
+                  room.stateTimer += ct.delta;
+                  break;
+              case 'extraScore':
+                  // add the extra score based on level completion and extra balls 
+                  if (room.extraScoreAdded == false) {
+                      room.nextScore += 500 + 500 * room.extraBalls;
+                      room.extraScoreAdded = true;
+                  }
+                  // change message label
+                  var extraScore = 500 + 500 * room.extraBalls;
+                  room.messageText = 'Extra Lives: ' + room.extraBalls + '(+' + 500 * room.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + room.nextScore;
+                  room.stateTimer += ct.delta;
+                  // after 2 seconds, add "Press space" to the message and allow go to next room
+                  if (room.stateTimer > 120){
+                      room.messageText = 'Extra Lives: ' + room.extraBalls + '(+' + 500 * room.extraBalls + ' poinsts)\nLevel Completion: +500 points\nScore: ' + room.nextScore + '\nPress Space to Continue';
+                      if (ct.actions.Launch.pressed || ct.touch.events.length){
+                          room.state = 'nextRoom';
+                      }
+                  }
+                  break;
+              case 'nextRoom':
+              // change message
+                  room.messageText = 'Press Space to continue';
+                  // save current score for the nexto room
+                  localStorage['score'] = room.score;                
+                  //console.log('Score: ' + Number(localStorage['score']));
+                          
+                  // save the highscore
+                  if (!('highScore' in localStorage)) {
+                      localStorage['highScore'] = room.score;
+                  } else if(Number(localStorage['highScore']) < room.score){
+                      localStorage['highScore'] = room.score;
+                  }
+                  
+                  //go to next room
+                  ct.rooms.switch(room.nextRoom);
+                  break;
+          }
+      }
+fonts: []
+styletick: .nan
+palette: []
+startroom: a36c8803-c3bd-4be8-b4a0-d631742cece9
