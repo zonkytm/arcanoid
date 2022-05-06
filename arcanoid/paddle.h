@@ -22,7 +22,7 @@ public:
 		paddle_texture.loadFromImage(paddle_image);
 		paddle_sprite.setTexture(paddle_texture);
 		paddle_sprite.setTextureRect(IntRect(0, 0, 104, 24));
-		paddle_sprite.setOrigin(paddle_sprite.getLocalBounds().width / 2, 0);
+		paddle_sprite.setOrigin(paddle_sprite.getLocalBounds().width / 2, paddle_sprite.getGlobalBounds().height);
 		paddle_sprite.setPosition(Vector2f(500 / 2, 500 - paddle_sprite.getGlobalBounds().height));
 	}
 	void ban_exit() {

@@ -10,79 +10,40 @@ using namespace std;
 
 void intersections_ball_paddle(Paddle& paddle, Ball& ball) {
 
-	if (ball.ball_sprite.getGlobalBounds().intersects(paddle.paddle_sprite.getGlobalBounds()))
+	if (ball.ball_sprite.getGlobalBounds().intersects(paddle.paddle_sprite.getGlobalBounds()) and ball.ball_sprite.getPosition().y<=paddle.paddle_sprite.getPosition().y)
 	{
-		if (!((paddle.dir == ball.dir) or paddle.dir == 0))
-		{
-			
-			ball.ball_speed_vector.x = -ball.ball_speed_vector.x;
-		}
-
-		if (ball.ball_sprite.getPosition().y + ball.ball_sprite.getGlobalBounds().height / 2>= paddle.paddle_sprite.getPosition().y)
-		{
-			
-			ball.ball_speed_vector.y = -ball.ball_speed_vector.y;
-		}
-	
-
-	}
-}
-
-
-void intersection(Ball& ball, Bricks& brick, int& points) {
-	if (ball.ball_sprite.getGlobalBounds().intersects(brick.brick_sprite.getGlobalBounds())) {
-		cout << "intersects" << endl;
-		brick.life = 0;
-		points++;
-	
-	}
-}
-
-
-
-
-/*
-
-
-void intersections_ball_paddle(Paddle& paddle, Ball& ball) {
-
-	if (ball.ball_sprite.getGlobalBounds().intersects(paddle.paddle_sprite.getGlobalBounds()))
-	{
-		if (ball.ball_sprite.getPosition().y + ball.ball_sprite.getGlobalBounds().height / 2 >= paddle.paddle_sprite.getPosition().y)
+		if (ball.ball_sprite.getPosition().y+ball.ball_sprite.getGlobalBounds().height/2  >= paddle.paddle_sprite.getPosition().y-paddle.paddle_sprite.getGlobalBounds().height)
 		{
 
 
-			ball.dy = -ball.dy;
-			if ((paddle.dir == ball.dir) or paddle.dir == 0)
+			if (!((paddle.dir == ball.dir) or paddle.dir == 0))
 			{
 
-				std::cout << "direction matches\n";
+				ball.ball_speed_vector.x = -ball.ball_speed_vector.x;
 			}
-			else {
-				ball.dx = -ball.dx;
 
-				std::cout << "direction doesn't matches\n";
+			if (ball.ball_sprite.getPosition().y + ball.ball_sprite.getGlobalBounds().height / 2 >= paddle.paddle_sprite.getPosition().y)
+			{
+
+				ball.ball_speed_vector.y = -ball.ball_speed_vector.y;
 			}
-		}
-		else if (ball.ball_sprite.getPosition().x + ball.ball_sprite.getGlobalBounds().width / 2 >= paddle.paddle_sprite.getPosition().x + paddle.paddle_sprite.getGlobalBounds().width / 2
-			or ball.ball_sprite.getPosition().x + ball.ball_sprite.getGlobalBounds().width / 2 < paddle.paddle_sprite.getPosition().x - paddle.paddle_sprite.getGlobalBounds().width / 2)
-		{
-			ball.ball_life = 0;
-		}
+			ball.ball_speed_vector.y = -ball.ball_speed_vector.y;
 
+		}
 	}
+
 }
 
-void intersection(Ball& ball, Bricks& brick, int& points) {
 
-	if (ball.ball_sprite.getGlobalBounds().intersects(brick.brick_sprite.getGlobalBounds()))
-	{
-		ball.ball_sprite.setColor(Color(255, 0, 0));
-		brick.brick_sprite.setPosition(-100, 0);
-		points++;
-	}
-	else {
-		ball.ball_sprite.setColor(Color::White);
-		
-	}
-}*/
+
+bool intersects_ball_brick(Ball& ball, Bricks& brick, int& points) {
+
+	return ball.ball_sprite.getGlobalBounds().intersects(brick.brick_sprite.getGlobalBounds());
+
+}
+
+
+
+
+
+

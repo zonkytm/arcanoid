@@ -18,11 +18,11 @@ int main() {
 	Bricks bricks[100];
 	int n_brick = 0;
 	int points = 0;
-	for (int  i = 1; i <= 6; i++)
+	for (int  i = 1; i <= 7; i++)
 	{
 		for (int  j = 1; j <=7; j++)
 		{
-			bricks[n_brick].brick_sprite.setPosition(i * 64, j * 32);
+			bricks[n_brick].brick_sprite.setPosition((i) * 64, j * 32+10);
 			bricks[n_brick].brick_sprite.setColor(Color(rand() % 255 + 1, rand() % 255 + 1, rand() % 255 + 1));
 			n_brick++;
 		}
@@ -54,38 +54,53 @@ int main() {
 				{
 					if (event.key.code == Keyboard::Space)
 					{
+						
 						game_ball.ball_life = !game_ball.ball_life;
+						game_ball.ball_speed_vector = VECTOR(-6, -5);
 					}
 				}
 			}
 		}
+		game_paddle.ban_exit();
+		game_paddle.movement();
+		game_paddle.update();
 		if (game_ball.ball_life)
 		{
 
+			intersections_ball_paddle(game_paddle, game_ball);
 
+			
+
+			game_ball.ban_exit(game_paddle);
+			game_ball.update();
+			game_ball.ball_sprite.move(game_ball.ball_speed_vector.x, 0);
 			for (int k = 0; k < n_brick; k++)
 			{
-				intersection(game_ball, bricks[k],points);
-				if (!bricks[k].life)
-				{
+				if (intersects_ball_brick(game_ball, bricks[k], points)) {
+
+					game_ball.ball_speed_vector.x = -game_ball.ball_speed_vector.x;
 					bricks[k].brick_sprite.setPosition(-100, 0);
+					points++;
 				}
+
+			}
+			game_ball.ball_sprite.move( 0, game_ball.ball_speed_vector.y);
+			for (int k = 0; k < n_brick; k++)
+			{
+				if (intersects_ball_brick(game_ball, bricks[k], points)) {
+
+					game_ball.ball_speed_vector.y = -game_ball.ball_speed_vector.y;
+					bricks[k].brick_sprite.setPosition(-100, 0);
+					points++;
+				}
+
 			}
 			
 
-			intersections_ball_paddle(game_paddle, game_ball);
-			
-			game_paddle.ban_exit();
-			game_paddle.movement();
-			game_paddle.update();
-
-			game_ball.ban_exit();
-			game_ball.update();
-			game_ball.movement();
 		}
 		else
 		{
-			game_ball.ball_sprite.setPosition(game_paddle.paddle_sprite.getPosition().x, game_paddle.paddle_sprite.getPosition().y-11);
+			game_ball.ball_sprite.setPosition(game_paddle.paddle_sprite.getPosition().x, game_paddle.paddle_sprite.getPosition().y-game_ball.ball_sprite.getGlobalBounds().height/2-game_paddle.paddle_sprite.getGlobalBounds().height);
 		}
 		window.clear();
 		window.draw(game_ball.ball_sprite);
