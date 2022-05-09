@@ -10,7 +10,6 @@ using namespace sf;
 
 class Paddle {
 
-	Vector2f position;
 	Texture paddle_texture;
 public:
 	float dx,speed;
