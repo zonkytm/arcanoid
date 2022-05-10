@@ -51,7 +51,7 @@ public:
 			dx = 0;
 			break;
 		}
-		paddle_sprite.setPosition(paddle_sprite.getPosition().x + dx, 500 - paddle_sprite.getGlobalBounds().height);
+		paddle_sprite.move( dx,0);
 
 		speed = 0;
 

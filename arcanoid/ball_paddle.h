@@ -10,7 +10,7 @@ using namespace std;
 
 void intersections_ball_paddle(Paddle& paddle, Ball& ball) {
 
-	if (ball.ball_sprite.getGlobalBounds().intersects(paddle.paddle_sprite.getGlobalBounds()) and ball.ball_sprite.getPosition().y<=paddle.paddle_sprite.getPosition().y)
+	if (ball.ball_sprite.getGlobalBounds().intersects(paddle.paddle_sprite.getGlobalBounds()) )
 	{
 		if (ball.ball_sprite.getPosition().y+ball.ball_sprite.getGlobalBounds().height/2  >= paddle.paddle_sprite.getPosition().y-paddle.paddle_sprite.getGlobalBounds().height)
 		{
